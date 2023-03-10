@@ -1,0 +1,65 @@
+.taskList {
+    position: relative;
+    top: 50px;
+    right: 28rem;
+    list-style-type: none;
+    width: 25rem;
+    height: 5rem;
+    border: 1px solid #6b6161;
+    border-radius: 5px;
+}
+
+ul {
+    text-align: center;
+}
+
+p {
+    padding: 3px 0 0 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+input[type=button] {
+    position: relative;
+    top: 3px;
+    background-color: #008ae6;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enabled {
+    text-decoration: line-through;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.disabled {
+    text-decoration: null;
+}
+
+.taskPosition {
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.inputConfiguration {
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 10px 0 5px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,25 @@
+.configurationTitle{
+    text-align: center;
+}
+
+button {
+    position: relative;
+    left: 10px;
+    outline: none;
+    background-color: #008ae6;
+    color: #fff;
+    width: auto;
+    max-width: 300px;
+    min-width: 100px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#home{
+    margin-right: 10px;
+}

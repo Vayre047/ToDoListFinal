@@ -1,0 +1,10 @@
+<!-- Mostrar tarefas por fazer ou concluidas -->
+<div class="dropdownPosition">
+    <form [formGroup]="newStatus" (ngSubmit)="getFilterStatus()">
+        <select class="selectedStatus" formControlName="status">
+            <option [ngValue]="null" disabled>Status</option>
+            <option class="optionValues" *ngFor="let singleStatus of filterStatus" [ngModel]="singleStatus.status">{{singleStatus.status}}</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</div>

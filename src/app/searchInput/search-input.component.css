@@ -1,0 +1,23 @@
+.searchInput {
+    position: relative;
+    top: 1.5rem;
+    left: 30%;
+    width: 350px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 100%;
+    min-width: 200px;
+    height: 2.5rem;
+    min-height: 25px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #dbd7d7;
+}
+
+.taskConfiguration {
+    border: 5px solid #000;
+}

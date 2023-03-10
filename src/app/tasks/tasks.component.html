@@ -1,0 +1,15 @@
+<!-- Envia tasks para o componente filho -->
+
+<!-- Recebe do search-input newSearchedTasks -->
+<search-input [tasks]="tasks" (newSearchedTasks)="updateTask($event)"></search-input>
+<!-- Recebe do dropdown-menu newTasks -->
+<dropdown-menu [tasks]="tasks" (newTasks)="updateTask($event)"></dropdown-menu>
+
+<!-- Adicionar nova tarefa -->
+<div class="buttonContainer">
+    <input [(ngModel)]="newTask" type="text" class="searchToTask" placeholder="New tasks">
+    <div class="buttonConfiguration">
+        <button class="addButton" (click)="addTask()">+</button>
+    </div>
+    <task [tasks]="filteredTasks" (newTasks)="updateTask($event)"></task>
+</div>
